@@ -1,0 +1,10 @@
+
+services:
+  rest:
+    container_name: auth-app
+
+    build: ./
+
+    ports:
+      - "8080:8080"  # Хост:8080 -> Контейнер:8080
+
